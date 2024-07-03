@@ -1,0 +1,11 @@
+# Ignore all files
+*
+
+# But don't ignore directories, so we can recurse into them
+!*/
+
+# Unignore .zip files
+!*.zip
+
+# Unignore README.md file
+!README.md
